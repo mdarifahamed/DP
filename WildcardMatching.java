@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class WildcardMatching {
-    // Hard prob
+    // Hard prob O(n*M)
     public static boolean isMatch(String s, String p){
         int n = s.length();
         int m = p.length();
